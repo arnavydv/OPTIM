@@ -1,4 +1,5 @@
 import numpy as np 
+import torch 
 from neural_networks import pi_star
 model=pi_star()
 def forward_pass(time:float,N:int,mu:float,rate_in_percent:float,sigma_in_percent:float,model,w0):
@@ -18,3 +19,6 @@ def forward_pass(time:float,N:int,mu:float,rate_in_percent:float,sigma_in_percen
     wealth_array[i+1]=W+(drift*dt)+diffusion
     return time_array,wealth_array
 
+def v_x(model,w0):
+    v=
+    v_x=torch.autograd.grad(V,x,create_graph=True)
