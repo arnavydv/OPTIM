@@ -1,5 +1,5 @@
 import numpy as np 
-def forward_pass(time,N:int,mu,rate,sigma,pi_star,w_t):
+def forward_pass(time:float,N:int,mu:float,rate_in_percent:float,sigma_in_percent:float,pi_star,w_t):
     dt = time/N
     time_grid=np.linspace(0,time,N+1)
     wealth_path=np.zeros(N+1)
