@@ -47,8 +47,11 @@ Crucial Insight: If your Forward Pass (Actor) made a bad decision (e.g., investe
 $Y_T$: it tells us thatt what would be the final condition like after that we dont have to optimize anything else 
 \
 if at the end we have $1000 we dont have to optimize another future we just have to simulate the backward equation which tells how the thing is allocated so that we can reach the $1000 mark 
-### $ Y_T$
+### $Y_T$
 IT IS THE VALUE FUNCTION WHICH TELLS THE CURRENT HAPPINES OF THE USER OR THE INVESTOR \
 FUTURE EXPECTED UTILITY 
 ### $Z_T$
-THIS IS THE VALUE FUCNTION 
+THIS IS THE VALUE function that tells after the analysis that what should be the next step while optimizing things 
+like this is the most important things\
+it is the action that we have to take to make things optimal and reach that point 
+If you hold 100 shares, your portfolio value moves with the stock. $Z_t$ measures exactly **how many shares** you effectively hold at that moment to make the math work.
