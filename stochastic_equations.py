@@ -19,6 +19,8 @@ def forward_pass(time:float,N:int,mu:float,rate_in_percent:float,sigma_in_percen
     wealth_array[i+1]=W+(drift*dt)+diffusion
     return time_array,wealth_array
 
-def v_x(model,w0):
-    v=
+def v_x(model,w0,t0):
+    v=model(t0,w0)
     v_x=torch.autograd.grad(V,x,create_graph=True)
+
+def terminal_condition()
