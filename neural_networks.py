@@ -3,7 +3,7 @@ from torch import nn
 
 class pi_star(nn.Module):
     def __init__(self):
-        super().__init()
+        super().__init__()
         self.network=nn.Sequential(
             nn.Linear(2,32),
             nn.ReLU(),
@@ -22,7 +22,7 @@ class pi_star(nn.Module):
     
 class Z_net(nn.Module):
     def __init__(self):
-        super().__init()
+        super().__init__()
         self.network=nn.Sequential(
             nn.Linear(2,32),
             nn.ReLU(),
