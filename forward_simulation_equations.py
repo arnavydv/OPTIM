@@ -24,3 +24,4 @@ sigma= 0.016162564586327234
 rate= 0.036800000000000 
 w0= 1
 forward_simulation(model,dw,mu,sigma,w0,rate,1,252)
+#this thing is not working 
